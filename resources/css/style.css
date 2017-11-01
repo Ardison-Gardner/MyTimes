@@ -45,9 +45,13 @@ a {
 
 /* Main content. */
 
+p {
+	display: block;
+}
+
 .content {
 	display: flex;
-	padding-top: 120px;
+	padding-top: 116px;
 }
 
 .column {
