@@ -1,26 +1,28 @@
 /* Header section */
 
+div {
+	border: 1px solid black;
+}
+
 header {
 	display: flex;
 	align-items: center;
 	position: fixed;
 	width: 100%;
+	height: 80px;
 	border-bottom: 1px solid black;
 	font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-div {
-	border: 1px solid black;
-}
-
 header nav {
-	padding-right: 40px;
+
 }
 
 nav span {
 	display: inline-block;
+	padding: 20px 10px;
 }
 
 a {
@@ -30,6 +32,7 @@ a {
 .logo {
   display: flex;
   align-items: center;
+	padding-left: 30px;
 }
 
 .logo img {
@@ -39,6 +42,8 @@ a {
 .logo span {
 	color: MediumAquamarine;
 }
+
+/* Main content. */
 
 .content {
 	display: flex;
