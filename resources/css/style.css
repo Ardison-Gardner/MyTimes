@@ -23,10 +23,6 @@ nav span {
 	padding: 20px 10px;
 }
 
-a {
-	color: black;
-}
-
 .logo {
   display: flex;
   flex-grow: 1;
@@ -44,12 +40,16 @@ a {
 	color: MediumAquamarine;
 }
 
-/* Main content. */
+/* Body. */
 
 body {
 	margin: 0;
 	font-family: Georgia;
 	font-size: 17px;
+	color: black;
+}
+
+a {
 	color: black;
 }
 
@@ -73,6 +73,8 @@ h2 {
 h3 {
 	display: block;
 }
+
+/* Written content. */
 
 .content {
 	display: flex;
